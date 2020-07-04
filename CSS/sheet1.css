@@ -1,0 +1,268 @@
+/* new */
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.body-bg{
+ background-image: url('bg.jpg');
+ background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+ background-color: #cccccc;
+ position: relative;
+
+}
+
+.text-block-custom {
+  position: absolute;
+  /* Top: 200px; */
+  /* right: 20px; */
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin: 10px 70px;
+  font-family: 'Squada One', cursive;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/img2.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/img3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img/img4.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("img/img6.jpg");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("img/img9.jpg");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-image: url("img/img7.jpg");
+  min-height: 400px;
+}
+
+.bgimg-7 {
+  background-image: url("img/img10.jpg");
+  min-height: 400px;
+}
+
+.bgimg-8 {
+  background-image: url("img/img11.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-9 {
+  background-image: url("img/img12.jpg");
+  min-height: 400px;
+}
+
+.bgimg-10 {
+  background-image: url("img/img13.jpg");
+  min-height: 400px;
+}
+
+.bgimg-11 {
+  background-image: url("img/img14.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: rgba(0,0,0,0.5)
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+/* old */
+#btn-font-custom{
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Squada One', cursive; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block}
+
+.footer-txt-custom{
+   text-transform: uppercase;
+   font-family: Helvetica;
+   line-height: 1.0;
+   font-weight: 300;
+   color: #c7c4bf;
+}
+
+.custom-ul{
+  list-style-type:none;
+  line-height: 2.3;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: clip;
+  border-left: 0.4px solid #b8b5ae;
+}
+
+.custom-ul a{
+  color: red;
+  font-weight: 100;
+}
+
+.custom-add p{
+  color: #b3b0ab;
+  font-weight: 100;
+  text-align: right;
+}
+
+.custom-txt-link{
+    color: #b3b0ab;
+}
+
+.btn-custom{
+  color:white;
+  font-family: 'Squada One', cursive;
+  letter-spacing: 1.4px;
+  word-spacing: 4px;
+  font-weight: 150;
+
+}
+
+.custom-animation{
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+a.custom-hover:hover{
+  color: gray;
+}
+
+.custom-btn-register{
+  letter-spacing: 2.3;
+  border-radius: 12px;
+  background-color: #00001c;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custum-btn-nav{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custum-btn-nav:hover {
+    border-bottom: 2px solid yellow;
+}
+.custum-dropdown-nav{
+  font-size: 60%;
+}
+
+.custom-bg{
+  background-color: rgba(0,0,0,1);
+}
+
+/* new */
+
+.back-to-top {
+    position: fixed;
+    z-index: 99;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.custom-card-text{
+  font-size: 25px;
+  font-family: sans-serif;
+}
